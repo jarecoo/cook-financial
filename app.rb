@@ -4,10 +4,10 @@ get '/' do
   "Welcome to Bruce Cook Financial"
 end
 
-get '/hi' do
-  "hello world"
+get '/about_us' do
+  "we are bruce cook financial"
 end
 
-get '/dude' do
-  "hey dude"
+not_found do
+  "sorry, the page you requested could not be found"
 end
