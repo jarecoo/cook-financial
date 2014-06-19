@@ -4,7 +4,7 @@ get '/' do
   "Welcome to Bruce Cook Financial"
 end
 
-get '/about_us' do
+get '/about' do
   "we are bruce cook financial"
 end
 
