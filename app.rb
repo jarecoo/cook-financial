@@ -1,7 +1,9 @@
+require 'rubygems'
 require 'sinatra'
+require 'Haml'
 
 get '/' do
-  "Welcome to Bruce Cook Financial"
+  haml :index
 end
 
 get '/about' do
