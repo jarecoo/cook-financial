@@ -7,9 +7,9 @@ get '/' do
 end
 
 get '/about' do
-  "we are bruce cook financial"
+  haml :about
 end
 
 not_found do
-  "sorry, the page you requested could not be found"
+  haml :not_found
 end
