@@ -3,14 +3,13 @@
   %head
     %title BCFS
     %link(rel="stylesheet" href="/css/bootstrap.css")
-    / %link(rel="stylesheet" href="css/bootstrap-responsive.css")
-  %body
+  %body.container
     #wrapper
       #header
-        %h1 Bruce Cook Financial Services
+        %h2 Bruce Cook Financial Services
         %h4 A money tomorrow
-      #nav
-        %ul
+      #div
+        %ul{class: ["nav", "nav-tabs"], role: "tablist"}
           %a(href="/")
             %li Home
           %a(href="about")
