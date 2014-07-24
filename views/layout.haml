@@ -2,8 +2,8 @@
 %html
   %head
     %title BCFS
-    / %link(rel="stylesheet" href="http://yui.yahooapis.com/2.8.0r4/build/reset/reset-min.css")
-    / %link(rel="stylesheet" href="css/styles.css")
+    %link(rel="stylesheet" href="/css/bootstrap.css")
+    / %link(rel="stylesheet" href="css/bootstrap-responsive.css")
   %body
     #wrapper
       #header
@@ -17,6 +17,8 @@
             %li About
           %a(href="contact_us")
             %li Contact
+          %a(href="read_more")
+            %li Read More
 
       #content
         =yield
