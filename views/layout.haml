@@ -1,4 +1,4 @@
-!!!
+!!! 5
 %html
   %head
     %title BCFS
@@ -9,15 +9,19 @@
         %h2.row Bruce Cook Financial Services
         %h4.row A money tomorrow
       #div.row
-        %ul{class: ["nav", "nav-tabs"], role: "tablist"}
-          %a(href="/")
-            %li Home
-          %a(href="about")
-            %li About
-          %a(href="contact_us")
-            %li Contact
-          %a(href="read_more")
-            %li Read More
+        %ul{class: ["nav", "nav-tabs", "nav-justified"], role: "tablist"}
+          %li
+            %a{href: "/"}
+              Home
+          %li
+            %a{href: "about"}
+              About
+          %li
+            %a{href: "contact_us"}
+              Contact Us
+          %li
+            %a{href: "read_more"}
+              Read More
 
       #content
         =yield
